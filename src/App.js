@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import back4 from "./assets/back4.jpg";
+// import back2 from "./assets/back2.jpg";
+import Card from "./components/Card";
+
+// const img = [{ back2 }, { back4 }];
+
+const Container = styled.div`
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url(${back4});
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Container>
+            <Card />
+        </Container>
+    );
 }
 
 export default App;
