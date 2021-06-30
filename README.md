@@ -21,3 +21,5 @@ Planning to add soon a password test strength
 I wanted a new challenge and found this suggestion on App ideas
 
 And I can send the link to friends so they can have strong passwords.
+
+Enough said, check for yourself 👉🏾 https://passgeneratormichel.netlify.app/
